@@ -4,5 +4,16 @@ Section - 6
  77 - Classes Part 1
 
     Class is a kind of template for creating a object
+    A class can create a new kind of datatype by its own.
+
+    Access modifiers :
+     - Public means unrestricted access
+     - Protected class can be accessed within the same package only.
+
+ 78 - Classes Part 2
+
+    Getter and setter used to hide the inner mechanism of the class
+    In setter methods validations could be implemented.
+
 
 

@@ -1,4 +1,4 @@
-package com.udemy.codingexercises._30;
+package com.udemy.course.codingexercises._30;
 
 public class Person {
 

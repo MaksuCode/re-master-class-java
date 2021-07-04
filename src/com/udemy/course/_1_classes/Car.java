@@ -1,4 +1,4 @@
-package com.udemy.course.classes;
+package com.udemy.course._1_classes;
 
 public class Car {
 

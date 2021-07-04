@@ -1,4 +1,4 @@
-package com.udemy.codingexercises._32;
+package com.udemy.course.codingexercises._32;
 
 public class Point {
 

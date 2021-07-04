@@ -1,4 +1,4 @@
-package com.udemy.codingexercises._29;
+package com.udemy.course.codingexercises._29;
 
 public class SimpleCalculator {
 

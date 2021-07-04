@@ -1,6 +1,6 @@
 package com.udemy;
 
-import com.udemy.classes.Car;
+import com.udemy.course.classes.Car;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.udemy.codingexercises._31;
+package com.udemy.course.codingexercises._31;
 
 public class Wall {
 

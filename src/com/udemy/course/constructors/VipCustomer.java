@@ -1,4 +1,4 @@
-package com.udemy.constructors;
+package com.udemy.course.constructors;
 
 public class VipCustomer {
 

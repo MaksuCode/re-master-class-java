@@ -8,6 +8,12 @@ public class BankAccount {
     private String email ;
     private String phoneNumber ;
 
+    public BankAccount(){
+        this("12333444" , 50.0 , "Default name" , "Default email" , "Default phone number" );   // Here calling major constructor and setting some default parameters to it.
+        System.out.println("Empty constructor called.");
+    }
+
+    // This is our major constructor. Here all the fields of the object is updated. And other constructors call this consturctor.
     public BankAccount(String accountNumber , double balance , String customerName , String email , String phoneNumber){
         this.accountNumber = accountNumber ;
         this.balance = balance ;
@@ -17,9 +23,8 @@ public class BankAccount {
         System.out.println("Constructor with parameters called.");
     }
 
-    public BankAccount(){
-        this("12333444" , 50.0 , "Default name" , "Default email" , "Default phone number" );   //Here calling other constructor and setting some default parameters to it.
-        System.out.println("Empty constructor called.");
+    public BankAccount(String customerName , String email , String phoneNumber){
+        this("1234567890" , 0.00 , customerName , email , phoneNumber); // Here calling major constructor with this() expression. And setting some parameters as default.
     }
 
     public void depositFund(double amount){
@@ -95,14 +100,19 @@ public class BankAccount {
 //        account.setPhoneNumber("55532244");
 //        account.setBalance(100);
 //        account.depositFund(32);
-
+//
 //        BankAccount maxsAccount = new BankAccount("123456789" , 1000.0 , "Max" , "max@redbull.com" , "43255667");
 //        maxsAccount.withdrawFund(10000);
+//
+//        BankAccount lastAccount = new BankAccount();
+//        System.out.println(lastAccount.getAccountNumber());
+//        System.out.println(lastAccount.getCustomerName());
+//        System.out.println(lastAccount.getPhoneNumber());
 
-        BankAccount lastAccount = new BankAccount();
-        System.out.println(lastAccount.getAccountNumber());
-        System.out.println(lastAccount.getCustomerName());
-        System.out.println(lastAccount.getPhoneNumber());
+        BankAccount i̇pekAccount = new BankAccount("İpek Bilge" , "ipekb@gmail.com" ,"5443322");
+        System.out.println(i̇pekAccount.getAccountNumber());
+        System.out.println(i̇pekAccount.getBalance());
+        System.out.println(i̇pekAccount.phoneNumber);
 
     }
 }
